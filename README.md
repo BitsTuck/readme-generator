@@ -1,1 +1,1 @@
-# readme-generator
+{"title":"ReadMe Generator","description":"This app will collect and compile the info you need for a good thing","installation":"no","usage":"Practice","contributions":"Just me for now","tests":"This is six or seven?","github":"Pusch's Meh","email":"no"}
