@@ -1,8 +1,9 @@
+//Imports inquirer, fs, and the generateMarkdown.js funcionalities into the index.js file.
 const inquirer = require('inquirer');
 const fs = require('fs');
 const generateMarkdown = require('./utils/generateMarkdown');
 
-// TODO: Create an array of questions for user input
+// Questions posed by the app, including type and potential answer choices (see: license)
 const questions = [ {
     type: 'input',
     message: 'Please enter your project title:',
@@ -51,6 +52,7 @@ const questions = [ {
     }];
 
 
+    //invokes inquirer and directs the writing of the ReadMe file when the questions have been answered. Error handling included.
 inquirer
   .prompt(questions)
   .then((response) => {

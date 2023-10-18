@@ -1,5 +1,4 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
+//Gives functionality to the list choices from index.js, including the badges and links to the licenses for more information
 function renderLicenseBadge(license) {
     switch (license) {
         case 'MIT':
@@ -21,16 +20,8 @@ function renderLicenseBadge(license) {
             break;
     }
 }
-console.log
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
-function renderLicenseLink(license) { }
 
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-function renderLicenseSection(license) { }
-
-// TODO: Create a function to generate markdown for README
+// Creates the markdown document using the data provided by the responses to the inquirer questions. Also adds text (see: license) and links (GitHub/Email)
 function generateMarkdown(data) {
     return `# ${data.title} 
 #### Table of Contents
@@ -56,10 +47,8 @@ ${data.tests}
 # Questions
  <a href='https://github.com/${data.github}' target=_blank>Check out my Github Repo</a> or 
 <a href='mailto:${data.email}'>drop me an email</a>
-
-
-
 `;
 }
 
+//Exports the functionality of this js file so that it is available for the index file.
 module.exports = generateMarkdown;

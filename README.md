@@ -1,4 +1,4 @@
-# I Hate Mondays 
+# ReadMe Generator 
 #### Table of Contents
 -[Description](#description)  
 -[Installation](#installation)  
@@ -8,19 +8,19 @@
 -[Tests](#tests)  
 -[Questions](#questions)  
 # Description
-This is an application that will help you cope better with Mondays and their nonsense
+This app will ask you a series of questions and then generate a professional-looking ReadMe!
 # Installation
-You don't. You just hope for the best
+N/A (although you will need Node js
 # Usage
-You enter some info, and it tells you how to better deal with Mondays
+Answer the question prompts in your terminal and then watch the magic unfold!
 # License 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) (click the link to learn more about the license!)
+[![License: CC0-1.0](https://licensebuttons.net/l/zero/1.0/80x15.png)](http://creativecommons.org/publicdomain/zero/1.0/) (click the link to learn more about the license!)
 # Contributing
-Me, with help from my tutor
+Elizabeth Tucker (me) with help from my tutor Dru Sanchez
 # Tests
-Lots and lots. Mostly centered on the Table of Contents and its functionality.
+Lots and lots. Mostly around the table of contents.
 # Questions
- <a href='https://github.com/BitsTuck' target=_blank>Check out the Github Repo</a> or 
+ <a href='https://github.com/BitsTuck' target=_blank>Check out my Github Repo</a> or 
 <a href='mailto:bits.tucker@gmail.com'>drop me an email</a>
 
 
