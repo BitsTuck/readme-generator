@@ -55,5 +55,5 @@ inquirer
   .prompt(questions)
   .then((response) => {
     fs.writeFile('readme.md', generateMarkdown(response), (err) =>
-    err ? console.log('Please complete the form') : console.log('Thank you for your reponse.'))
+    err ? console.log('Please complete the form') : console.log('Thanks! Go check out your ReadMe.'))
   });
