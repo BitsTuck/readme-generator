@@ -1,6 +1,6 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
-const { title } = require('process');
+const generateMarkdown = require('./utils/generateMarkdown');
 
 // TODO: Create an array of questions for user input
 const questions = [ {
@@ -19,10 +19,10 @@ const questions = [ {
     name: 'installation',
   },
   {
-    type: 'input',
+    type: 'list',
     message: 'Please select a license for your project:',
-    name: 'usage',
-    //need icon input and selection menu
+    name: 'license',
+    choices: ['MIT', 'Creative Commons', 'Mozilla Public License', 'Open Data Commons', 'The Artistic License']
   },
   {
       type: 'input',
@@ -50,44 +50,10 @@ const questions = [ {
       name: 'email',
     }];
 
-// // TODO: Create a function to write README file
-// function writeToFile(fileName, data) {
-    // const response = {
-    //     title: '';
-    //     description: '';
-    //     installation: '';
-    //     usage: '';
-    //     contributions: '';
-    //     tests: '';
-    //     github: '';
-    //     email: '';
-    // }
-    
-
-// // TODO: Create a function to initialize app
-// function init() {}
-
-// // Function call to initialize app
-// init();
-
 
 inquirer
   .prompt(questions)
   .then((response) => {
-    fs.writeFile('readme.md', JSON.stringify(response), (err) =>
+    fs.writeFile('readme.md', generateMarkdown(response), (err) =>
     err ? console.log('Please complete the form') : console.log('Thank you for your reponse.'))
-
-
-    //JSON parse?
-    // `
-    // <h1 id="title">Project Title</h1>
-    // <h1 id="description">Project Description</h1>
-    // <h1 id="installation">Project Installation</h1>
-    // <h1 id="usage">Project Usage</h1>
-    // <h1 id="contributions">Project Contributors</h1>
-    // <h1 id="tests">Project Testing</h1>
-    // <h1 id="github">Author Github</h1>
-    // <h1 id="email">Contact the Author</h1>
-    // `
- 
   });
