@@ -1,4 +1,4 @@
-# ReadMe Generator 
+# Let's try this again 
 #### Table of Contents
 -[Description](#description)  
 -[Installation](#installation)  
@@ -8,20 +8,19 @@
 -[Tests](#tests)  
 -[Questions](#questions)  
 # Description
-This app will ask you a series of questions and then generate a professional-looking ReadMe!
+no
+# Video Demonstration
+<a href="https://drive.google.com/file/d/1m9oKLwRYyZHJo-bcYVjhJXO2ZvEHmSAv/view" target=_blank>Click Here!</a>
 # Installation
-N/A (although you will need Node js
+nope
 # Usage
-Answer the question prompts in your terminal and then watch the magic unfold!
+no
 # License 
-[![License: CC0-1.0](https://licensebuttons.net/l/zero/1.0/80x15.png)](http://creativecommons.org/publicdomain/zero/1.0/) (click the link to learn more about the license!)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) (click the link to learn more about the license!)
 # Contributing
-Elizabeth Tucker (me) with help from my tutor Dru Sanchez
+no
 # Tests
-Lots and lots. Mostly around the table of contents.
+no
 # Questions
- <a href='https://github.com/BitsTuck' target=_blank>Check out my Github Repo</a> or 
-<a href='mailto:bits.tucker@gmail.com'>drop me an email</a>
-
-
-
+ <a href='https://github.com/no' target=_blank>Check out my Github Repo</a> or 
+<a href='mailto:no'>drop me an email</a>
